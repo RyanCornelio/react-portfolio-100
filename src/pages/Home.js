@@ -1,7 +1,7 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import YoutubeIcon from "@material-ui/icons/YouTube";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -11,9 +11,16 @@ const Home = () => {
         <h2>Hi, My Name Is Ryan</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning & creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a href="https://www.linkedin.com/in/ryan-phillips-iserhills-cornelio/">
+            <LinkedInIcon />
+          </a>
+          <a href="https://www.youtube.com/channel/UCOg3PF76vT3K6DMGcU7-XzA">
+            <YoutubeIcon />
+          </a>
+
+          <a href="https://github.com/RyanCornelio">
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
