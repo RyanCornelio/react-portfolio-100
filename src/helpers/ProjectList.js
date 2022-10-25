@@ -1,38 +1,40 @@
-import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.webp";
 import Proj4 from "../assets/proj4.webp";
 import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.png";
+import techstore from "../assets/techstore.png";
+import horoskop from "../assets/horoskop.png";
 
 export const ProjectList = [
   {
-    name: "Harry Potter",
-    image: Proj1,
-    skill: "Javascript, HTML, CSS",
+    name: "Projektarbete TechStore",
+    image: techstore,
+    skills: "Javascript, HTML, CSS,",
+    link: "https://github.com/RyanCornelio/Projektarbete-Tech-Store-",
   },
   {
-    name: "Hermione Granger",
-    image: Proj2,
-    skills: "React, Node.js",
+    name: "REST-API Horoskop",
+    image: horoskop,
+    skills: "PHP",
   },
   {
-    name: "Ron Weasley",
+    name: "Flower Store",
     image: Proj3,
-    skills: "React, Node.js, SpotifyAPI",
+    skills: "TypeScript",
   },
   {
-    name: "Rubeus Hagrid",
+    name: "Hemlagat",
     image: Proj4,
-    skills: "React, Node.js, MySQL",
+    skills: "Javascript",
   },
   {
-    name: "Profesor Dumbledore",
+    name: "Webbshop",
     image: Proj5,
-    skills: "Javascript, HTML, CSS",
+    skills: "Javascript, PHP, SQL, HTML",
   },
   {
-    name: "Draco Malfoy",
+    name: "Uppgift 1 API",
     image: Proj6,
     skills: "React, Javascript, HTML, CSS",
   },
